@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRYPTOGAMEZ</title>
+    <link rel="shortcut icon" href="https://www.blitzpools.com/favicon-32x32.png" type="image/x-icon">
+
+    <!---animation image-->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+ 
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" type="text/css" href="/adda52.home_new.45aedb43.min.css" />
+
+<!-- JavaScript -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+  <style media="screen">
+     .carousel1{
+      height: 100vh;
+  }
+    .carousel-cell1 {
+      width: 100%;
+      }
+      .carousel-cell1 img{
+        margin-top: 3.5vw;
+        height: auto;
+      }
+      /* cell number */
+      .carousel-cell1:before {
+        display: block;
+      }
+      .flickity-page-dots1{
+        display: none;
+      }
+      .carousel1 .flickity-button.flickity-prev-next-button.previous{
+        background-color:transparent;
+      margin-top: -3vw;
+      }
+      .carousel1 .flickity-button.flickity-prev-next-button.next{
+      background-color:transparent;
+      margin-top: -3vw;
+      
+    }
+    .carousel1 .flickity-page-dots .dot{
+      background-color: red;
+      top: 5vw;
+      display: none;
+      /* position:relative; */
+      
+    }
+
+    /*carousel mobile*/
+    .carousel2{
+      /* height: 27vw; */
+  }
+    .carousel-cell2 {
+      /* width: 100%; */
+      }
+      .carousel-cell2 img{
+        margin-top: 3.5vw;
+        height: 55vh;
+      }
+      /* cell number */
+      .carousel-cell2:before {
+        display: block;
+      }
+      .flickity-page-dots2{
+        display: none;
+      }
+      .carousel2 .flickity-button.flickity-prev-next-button.previous{
+        background-color:transparent;
+      margin-top: 1vw;
+      }
+      .carousel2 .flickity-button.flickity-prev-next-button.next{
+      background-color:transparent;
+      margin-top: 1.2vw;
+      
+    }
+    .carousel2 .flickity-page-dots .dot{
+      background-color: #2396ff;
+      top: 5vw;
+      display: none;
+      /* position:relative; */
+      
+    }
+    /*end of carousel mobile*/
+    #stars{
+    background-color:whitesmoke;
+    margin-top: -4vw;
+    padding-bottom: 3vw;
+  }
+    #stars1{
+    background-color:white;
+    margin-top: -5vw;
+    /* padding-bottom: 3vw; */
+  }
+ .stars-heading h1{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+   padding-top: 2vw;
+   font-weight: 700;
+  }
+  .stars-heading span{
+    color: #fbad18;
+   
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+  
+ }
+.addaAction .slider{
+  /* display: none; */
+  /* background-color: red; */
+  width: 90vw;
+  margin-left: -1vw;
+  height: 60vh;
+   
+}
+.addaAction1 .slider{
+  /* display: none; */
+  /* background-color: red; */
+  width: 90vw;
+  margin-left: -1vw;
+  height: 45vh;
+   
+}
+.addaAction1 .wr-slider .img-wrapper{
+
+  border-right: 1px solid #c3c3c3;
+  height: 32vh;
+}
+.addaAction1 .slick-prev {
+  left: 25px;
+  /* padding-right: 10vw; */
+  top: 90px;
+
+}
+.addaAction1 .slick-next {
+  right: 0px;
+  /* padding-right: 10vw; */
+  top: 90px;
+
+
+}
+.wr-slider .img-wrapper {
+  height: 48vh;
+  
+}
+.slick-dots li
+{
+  margin-bottom: 5vw;
+  /* display: none; */
+  color:red;
+}
+.slick-dots1 li{
+  /* margin-top: -5vw; */
+  display: none;
+}
+
+.slick-prev {
+  left: 25px;
+  /* padding-right: 10vw; */
+  top: 130px;
+
+}
+.slick-next {
+  right: 0px;
+  /* padding-right: 10vw; */
+  top: 130px;
+
+}
+.img-wrapper p{
+  margin-left: 0vw;
+}
+
+ @media screen and (max-width: 620px) {
+   
+  .addaAction .slider{
+    height: 45vh;
+    margin-left: 1vw;
+
+  }
+  .addaAction1 .slider{
+    height: 40vh;
+    margin-left: 1vw;
+
+  }
+  .slick-prev {
+    top: -200vw;
+    left: 0vw;
+  }
+.slick-next {
+  top: -200px;
+}
+.addaAction1 .slick-prev {
+  left: 0px;
+  /* padding-right: 10vw; */
+  /* top: 5px; */
+
+}
+.addaAction1 .slick-next {
+  /* right: 0px; */
+  /* padding-right: 10vw; */
+  /* top: 5px; */
+
+
+}
+.img-wrapper p{
+  margin-left: 3vw;
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+.img-wrapper h3{
+  margin-left: 3vw;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+.addaAction1 .img-wrapper p{
+  font-family: 'Roboto', sans-serif;
+  margin-left: 0vw;
+  font-size: 10px;
+
+}
+.addaAction1 .img-wrapper h3{
+  font-family: 'Roboto', sans-serif;
+  margin-left: 0vw;
+  font-size: 12px;
+
+}
+   #review{
+     margin-top: 8vw;
+   }
+   .data1 h3{
+     /* color: red; */
+     margin-left: 4vw;
+   }
+ 
+   }
+ #review{
+   background-color: whitesmoke;
+   margin-top: -5vw;
+ }
+ #faqs{
+   background-color: white;
+ }
+ .youtube{
+   background-color: whitesmoke;
+   margin-top: -2vw;
+ }
+    </style>
+
+<body>
+
+  <!---start of navbar-->
+
+  <nav id="hea">
+    <div class="logo" ><img src="Image/Crypto Web-White-01.png" alt="" srcset=""></div>
+    <div class="openMenu"><i class="fa fa-bars"></i></div>
+    <ul class="mainMenu">
+       
+      <li><a href="#">HOME</a></li>
+      <li><a href="#" target="_blank">ABOUT</a></li>
+      <li><a href="#">TEAM</a></li>
+      <li><a href="#">CONTACT US</a></li>
+ 
+
+      
+    
+        <div class="closeMenu"><i class="fas fa-times-circle"></i></div>
+        <span class="icons">
+          <a href="#" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-youtube"style="font-size:35px"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+        </span>
+    </ul>
+
+    </nav>
+
+  <!----end of navbar-->
+    <!----start of initial page-->
+    <div class="back-img">
+    <!-- <img src="Image/Banner-image (1).jpg" alt="" srcset=""> -->
+
+
+    <div class="carousel1" data-flickity='{ "wrapAround": true, "autoPlay": 7000, "imagesLoaded":true }'>
+      <div class="carousel-cell1">
+        <img class="w3-image1" src="Image/Banner-Desktop.webp">
+      </div>
+      <div class="carousel-cell1">
+        <img class="w3-image1" src="Image/Banner-Desktop.webp">
+      </div>
+     
+    </div>
+   
+  <!-- <button class="sign-up"><a href="https://blitzpools.com/signup" style="font-family: 'Roboto', sans-serif;">SIGN UP</a></button> -->
+    
+</div>
+<div class="mobile-back">
+  <div class="mobile-img">
+    <img src="Image/Banner-Mobile.webp" alt="" srcset="">
+  </div>
+  <!-- <button class="down-now"><a href="https://blitzpools.com/signup"style="font-family: 'Roboto', sans-serif;">SIGN UP</a></button> -->
+</div>
+
+
+<!-----STARRT OF INFO-->
+<div class="main-heading1">
+  <h5>What is CryptoGamez? </h5>
+        <hr class="h">
+        <p>CryptoGamez is a real money skilled based gaming platform where players can play and win using real cash or crypto assests. Players can play for fun, compete for prizes, or win real money or crypto. CG aims to be the most user-friendly gaming platform available! And no matter whether you chose to deposit or not, you can still win real money in our free games!</p>
+     
+
+</div>
+
+<div class="section-container" data-aos="fade-right">
+  <div class="columns content">
+     <div class="content-container">
+        <h5>More than just a gaming app</h5>
+        <hr class="h">
+       <p>
+
+        CryptoGamez allows you to purchase crypto assests from our live exchange in app. By an easy 3 step process, new users and/or existing users can set up their own crypto wallet within the app to purchase or convert their winning amounts into crypto assests.
+     </p>
+     </div>
+  </div>
+  <div class="columns image" style="background-image:url('Image/1\ \(2\).webp')">
+     &nbsp;
+  </div>
+</div>
+<div class="section-container" data-aos="fade-left" >
+  <div class="columns image" style="background-image:url('Image/2-2.webp')">
+     &nbsp;
+  </div>
+  <div class="columns content">
+     <div class="content-container">
+        <h5>Play with Crypto. Don’t just hold it, play and win more!</h5>
+        <hr class="h">
+     <p>
+      Within the app users can use their crypto such as BTC to play in multiple games, allowing them to use their skill and knowledge to win more BTC. Specific tournaments will allow you to stake as much or as little as you want to try and win.
+     </p>
+     </div>
+  </div>
+</div>
+<div class="section-container" data-aos="fade-right">
+  <div class="columns content">
+    <div class="content-container">
+       <h5>Available Games</h5>
+       <hr class="h">
+    <p>
+     Poker, Rummy, Call break, Fantasy cricket, casino games, Ludo, candy crush, chess.
+    </p>
+    </div>
+ </div>
+  <div class="columns image game" style="background-image:url('Image/4-2.webp')">
+     &nbsp;
+  </div>
+ 
+</div>
+<div class="section-container" data-aos="fade-left">
+  <div class="columns image" style="background-image:url('Image/5-2.webp')">
+     &nbsp;
+  </div>
+  <div class="columns content">
+     <div class="content-container">
+        <h5>Casino Games</h5>
+        <hr class="h">
+     <p>
+      when playing casino games such as roulette, you must purchase coins from us to allow you to play. Coins can then be redeemed in the app to have a chance to win prizes such as phones, laptops etc
+     </p>
+     </div>
+  </div>
+</div>
+<div class="section-container" data-aos="fade-right">
+  
+  <div class="columns content">
+     <div class="content-container">
+        <h5>Live exchange</h5>
+        <hr class="h">
+     <p>
+      Track live crypto exchange rates to buy at the best price directly from us! 
+     </p>
+     </div>
+  </div>
+  <!-- <div class="columns image" style="background-image:url('https://lootmogul.com/wp-content/uploads/2021/01/1.jpg')"> -->
+    &nbsp;
+ </div>
+</div>
+<div class="section-container" data-aos="fade-right">
+  <div class="columns image" style="background-image:url('Image/6-1.webp">
+     &nbsp;
+  </div>
+  <div class="columns content">
+     <div class="content-container">
+        <h5>Convert your winning amounts into Crypto assests</h5>
+        <hr class="h">
+     <p>
+      You can convert your winning amounts into crypto currencies such as Bitcoin & Etherum using our crypto exchange. 
+     </p>
+     </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-----END OF DATA-->
+<!----end of initial page-->
+
+<!----start of marquee-->
+<!-- <div class="strip">
+  <img src="Image/Strip 1349X64.png" alt="" srcset="">
+</div>
+<div class="mobile-strip">
+  <div class="mob-strip-img">
+    <img src="Image/Strip_Mobile.jpg" alt="" srcset="">
+  </div>
+</div> -->
+<!----end of marquee-->
+
+<!-----2nd part -->
+
+<!-- <div id="play">
+  <div class="play-heading">
+    <h1>It's easy to start playing on <span class="yellow">BLITZPOOLS</span></h1>
+  </div>
+
+  <div class="play-container">
+    <div class="play-row">
+    
+      <div class="play-card">
+        <div class="play-card-header">
+          <span>1</span>
+        </div>
+        <div class="play-card-body">
+          <img src="Image/HTP-1-1.png" class="how1" alt="" srcset="">
+         <h5>Select the Game</h5>
+         
+        </div>
+      </div>
+      <div class="play-card">
+        <div class="play-card-header">
+          <span>2</span>
+        </div>
+        <div class="play-card-body">
+          <img src="Image/HTP-3.png" class="how1" alt="" srcset="">
+         <h5>Select the Pool</h5>
+         
+        </div>
+      </div>
+      <div class="play-card">
+        <div class="play-card-header">
+          <span>3</span>
+        </div>
+        <div class="play-card-body">
+          <img src="Image/HTP-2.png" class="how1" alt="" srcset="">
+         <h5>Create Team</h5>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div> -->
+
+
+
+<!---end of 2nd part-->
+<!----start of top-->
+<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+<!-- <div class="fixed-btn">
+  <a href="https://blitzpools.com/lobby#%20cricket#%20cricket" style="text-decoration: none;">PLAY NOW</a>
+</div> -->
+
+<!-----end of top-->
+<!----start of stars-->
+
+
+
+
+
+
+
+
+<!-- <div id="stars">
+  <div class="stars-heading">
+    <h1>All Star Features of <span class="yellow">BLITZPOOLS</span></h1>
+  </div>
+
+
+
+
+
+
+  <section class="text-center addaAction">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-12">
+    
+    <div class="slider wr-slider white-bg">
+    <div class="slider" id="action-slider">
+    <div class="img-wrapper c1">
+    <figure>
+    <div class="w-img"><img class="lazyload" width="72" height="72" src="Image/1.webp" alt="" /></div>
+    <figcaption>
+    <h3 style="font-weight: bold;">FREE REGISTRATION</h3>
+    <p style="text-align: left;word-spacing: 0.5em;">Create your BLITZPOOLS account for free. Sign up, deposit, make your team, enter pools and start playing.</p>
+  </figcaption>
+    </figure>
+    </div>
+    <div class="img-wrapper">
+    <figure>
+    <div class="w-img"><img class="lazyload" width="72" height="72" src="Image/2.webp" alt="" /></div>
+    <figcaption>
+      
+    <h3 style="font-weight: bold;">SIGN UP BONUS & COINS</h3>
+    <p style="text-align: left;word-spacing: 0.5em;">Get <i class="fa fa-inr"></i>50 Cash Bonus and 50 coins.</p>
+    </figcaption>
+    </figure>
+     </div>
+    <div class="img-wrapper">
+    <figure>
+    <div class="w-img"><img class="lazyload" width="72" height="72" src="Image/3.webp" alt="" /></div>
+    <figcaption>
+    <h3 style="font-weight: bold;">MONTHLY LEADERBOARD</h3>
+   <p style="text-align: left;word-spacing: 0.5em;">Track your rank on our Leaderboard and win exciting reward.</p>
+   </figcaption>
+  </figure>
+    </div>
+    <div class="img-wrapper">
+    <figure>
+    <div class="w-img"><img class="lazyload" width="72" height="72" src="Image/4.webp" alt="" /></div>
+    <figcaption>
+      <h3 style="font-weight: bold;">FREE GAMES FOR BEGINNERS</h3>
+												
+												<p style="text-align: left;word-spacing: 0.5em;">
+													Enter our most exciting FREE FREE FREE! pools and upgrade your skills. Win Real money rewards.
+												</p>
+                        </figcaption>
+     </figure>
+    </div>
+    <div class="img-wrapper">
+    <figure>
+    <div class="w-img"><img class="lazyload" width="72" height="72" src="Image/5.webp" alt="" /></div>
+    <figcaption>
+      <h3 style="font-weight: bold;" > PLAY WITH FRIENDS</h3>
+													
+      <p style="text-align: left;word-spacing: 0.2em;">
+        Challenge your buddies to play games on BLITZPOOLS. Create your own contest, share the code with your friends, enter the deposit amount and you are all set to play.
+      </p>   </figcaption>
+    </figure>
+    </div>
+    <div class="img-wrapper">
+    <figure>
+    <div class="w-img"><img class="lazyload" width="72" height="72" src="Image/6.webp" alt="" /></div>
+    <figcaption>
+      <h3 style="font-weight: bold;">PLAY & WIN REWARDS</h3>
+														
+      <p style="text-align: left;word-spacing: 0.5em;">
+        Play it on Mega Pools, win coins with our "BLITZ COIN GAMES", Refer your friend and a lot more.
+      </p> </figcaption>
+    </figure>
+    </div>
+    <div class="img-wrapper">
+    <figure>
+    <div class="w-img"><img class="lazyload" width="72" height="72" src="Image/7.webp" alt="" /></div>
+    <figcaption>
+      <h3 style="font-weight: bold;">INSTANT DEPOSITS & WITHDRAWALS</h3>
+      <p style="text-align: left;word-spacing: 0.5em;">
+        We assure you Secure and Instant withdrawals. Deposit, Real cash offers and a lot more that will make you win crazy rewards like no other.
+      </p> </figcaption>
+    </figure>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+
+
+  
+  </div> -->
+
+
+
+
+<!---end of stars-->
+
+
+<!---start of benefits of free pools-->
+<!-- <div id="stars1">
+  <div class="stars-heading">
+    <h1>Benefits of <span class="yellow">Free Pools</span></h1>
+  </div>
+
+
+
+
+
+
+  <section class="text-center addaAction1 ">
+    <div class="container" >
+    <div class="row">
+    <div class="col-xs-12">
+    
+    <div class="slider wr-slider white-bg">
+    <div class="slider" id="action-slider">
+    <div class="img-wrapper c1">
+    <figure>
+    <div class="w-img"><img class="lazyload" width="72" height="72" src="Image/1 (1).webp" alt="" /></div>
+    <figcaption>
+    <h3 style="font-weight: bold;font-size: 16px;">15 TEAMS</h3>
+    <p style="word-spacing: 0.2em;font-size: 14px;">Join with 15 teams for FREE.</p>
+  </figcaption>
+    </figure>
+    </div>
+    <div class="img-wrapper">
+    <figure>
+    <div class="w-img"><img class="lazyload" width="72" height="72" src="Image/2-1.webp" alt="" /></div>
+    <figcaption>
+      
+    <h3 style="white-space:pre-line;font-weight: bold;font-size: 16px;">BOOM! YOU WIN UP TO
+      <i class="fa fa-inr"></i>2500</h3>
+    <p style="word-spacing: 0.2em;font-size: 14px;">Nothing like this one.</p>
+    </figcaption>
+    </figure>
+     </div>
+    <div class="img-wrapper">
+    <figure>
+    <div class="w-img"><img class="lazyload" width="72" height="72" src="Image/3-1.webp" alt="" /></div>
+    <figcaption>
+    <h3 style="font-weight: bold;font-size: 16px;">UPGRADE YOUR SKILLS</h3>
+   <p style="text-align: left;word-spacing: 0.2em;font-size: 14px;">Free Pools will help you to level up your game.</p>
+  </figure>
+    </div>
+    <div class="img-wrapper">
+    <figure>
+    <div class="w-img"><img class="lazyload" width="72" height="72" src="Image/4-1.webp" alt="" /></div>
+    <figcaption>
+      <h3 style="font-weight: bold;font-size: 16px;">YOU WIN!</h3>
+												
+												<p style="text-align: left;word-spacing: 0.2em;font-size: 14px;">
+													Ohh Yes! You only win and get ready to win on MEGA POOLS too!
+												</p>
+     </figure>
+    </div>
+    <div class="img-wrapper">
+    <figure>
+    <div class="w-img"><img class="lazyload" width="72" height="72" src="Image/5-1.webp" alt="" /></div>
+    <figcaption>
+      <h3 style="font-weight: bold;font-size: 16px;"> ENTER MEGA POOL LIKE A MASTER</h3>
+													
+      <p style="word-spacing: 0.2em;font-size: 14px;">
+        And become a champion!
+      </p>   </figcaption>
+    </figure>
+    </div>
+    
+    </div>
+    <ul class="slick-dots1" role="tablist"><li class="slick-active" aria-hidden="false" role="presentation" aria-selected="true" aria-controls="navigation00" id="slick-slide00"><button type="button" data-role="none" role="button" tabindex="0">1</button></li><li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation01" id="slick-slide01"><button type="button" data-role="none" role="button" tabindex="0">2</button></li><li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation02" id="slick-slide02"><button type="button" data-role="none" role="button" tabindex="0">3</button></li><li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation03" id="slick-slide03"><button type="button" data-role="none" role="button" tabindex="0">4</button></li></ul>
+    </div>
+    </div>
+    </div>
+    </section>
+
+
+  
+  </div> -->
+
+
+<!----end of benefits of free pools-->
+<!----start of 3rd part-->
+<!-- <div id="review">
+  <div class="review-heading">
+    <h1>Reviews & <span class="yellow">Winnings</span></h1>
+  </div>
+
+  <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": 5000, "imagesLoaded":true }'>
+   
+    <div class="carousel-cell">
+      <img class="w3-image" src="Image/Testimonial-1 (1).png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="Image/Testimonial-2 (1).png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="Image/Testimonial-3-1.png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="Image/Testimonial-4-1.png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="Image/Testimonial-5-1.png">
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+</div> -->
+<!---end of 3rd part-->
+
+<!---start of 4th part-->
+
+
+<!----end of 4th part-->
+
+<!----start of 5th part-->
+<!-- <div id="faqs">
+<div class="play-heading">
+  <h1>BLITZPOOLS<span class="yellow"> FAQ</span></h1>
+</div>
+
+<section id="faq">
+  
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-12">
+                  <div class="accordions">
+                      <div class="accordion-item">
+                          <div class="accordion-title" data-tab="item1">
+                              <h5>How Do I Sign Up? <i class="fa fa-chevron-down"></i></h5>
+                          </div>
+                          <div class="accordion-content" id="item1">
+                              <p>By clicking the Sign Up Button and filling your Details, you can sign up BlitzPools.
+                              </p>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <div class="accordion-title" data-tab="item2">
+                              <h5>I have some other question which is not listed? <i class="fa fa-chevron-down"></i></h5>
+                          </div>
+                          <div class="accordion-content" id="item2">
+                              <p>
+                                Please mail support@blitzpools.com and our support team will respond back within 24 Hours.
+                              </p>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <div class="accordion-title" data-tab="item3">
+                              <h5>Which state is not allowed to play? <i class="fa fa-chevron-down"></i></h5>
+                          </div>
+                          <div class="accordion-content" id="item3">
+                              <p>
+                                Users from TamilNadu, Andhra Pradesh, Telangana, Odisha, Assam, Nagaland, Sikkim, Kerala, Meghalaya & West Bengal are not permitted to enter the challenges.
+                              </p>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <div class="accordion-title" data-tab="item4">
+                              <h5>Do I Get Any Bonus Money?<i class="fa fa-chevron-down"></i></h5>
+                          </div>
+                          <div class="accordion-content" id="item4">
+                              <p>
+                                Yes, You will instantly get Rs 50 as a Sign up Bonus Instantly!
+                              </p>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <div class="accordion-title" data-tab="item5">
+                              <h5>More FAQ's? <i class="fa fa-chevron-down"></i></h5>
+                          </div>
+                          <div class="accordion-content" id="item5">
+                              <p>
+                                <a href="faq.html" style="color: black;text-decoration: none;" target="_blank">Click here...</a>
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+ 
+</section>
+
+
+</div> -->
+
+
+<!---start of youtube-->
+<!-- <div class="youtube">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/gFuJjHcoGdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div> -->
+<!---end of youtube-->
+<!-- / END SECTION FAQ -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+  
+
+  
+  
+  
+  <!----end of 5th part-->
+  
+  <!---start of footer-->
+
+  <div class="social-media">
+    <div class="media-heading">
+      <h1>FOLLOW US</h1>
+
+    </div>
+    <div class="media-icon">
+    <div class="wrapper">
+      <div class="icon facebook">
+         <div class="tooltip">
+            Facebook
+         </div>
+         <span><i class="fab fa-facebook-f"></i></span>
+      </div>
+      <div class="icon twitter">
+         <div class="tooltip">
+            Twitter
+         </div>
+         <span><i class="fab fa-twitter"></i></span>
+      </div>
+      <div class="icon instagram">
+         <div class="tooltip">
+            Instagram
+         </div>
+         <span><i class="fab fa-instagram"></i></span>
+      </div>
+    
+      <div class="icon youtube">
+         <div class="tooltip">
+            YouTube
+         </div>
+         <span><i class="fab fa-youtube"></i></span>
+      </div>
+   </div>
+
+  </div>
+  </div>
+ 
+  <div id="footer">
+    
+    <div class="blitz-info">
+    <p>ABOUT US</p>
+    
+    <p>INFLUENCER SIGNUP</p>
+    
+    <p>INFLUENCER EARNING</p>
+    
+    <p>PRIVACY POLICY</p>
+    
+    <p>TERMS OF SERVICES</p>
+    </div>
+
+    <div class="horizontal-line1"></div>
+
+
+  
+    <!-- <div class="horizontal-line"></div> -->
+ 
+    
+
+    <!-- <div class="horizontal-line1"></div> -->
+
+
+   <div class="terms">
+      <h5>Copyright © 2021 All rights reserved</h5>
+      
+    </div>
+    <div class="cc">
+     <p>
+      LootMogul is NOT AFFILIATED, AUTHORIZED, LICENSED OR ENDORSED by NBA (National Basketball Association), NFL (National Football League), MLB (Major League Baseball), NHL (National Hockey League), MLS (Major League Soccer),  NCAA (National College Athletic Association) or any other professional and amateur organization.
+     </p>
+    </div>
+  
+  </div> 
+  
+  <!---end of footer-->
+
+  <!----animation image-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init(
+      {
+      offset: 200,
+      duration:1000,
+      });
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  
+<script type="bceabd1cbd2edd916ba68768-text/javascript" src="adda52.home.f644a272.min.js"></script>
+
+<script src="/rocket-loader.min.js" data-cf-settings="bceabd1cbd2edd916ba68768-|49" defer=""></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v64f9daad31f64f81be21cbef6184a5e31634941392597" integrity="sha512-gV/bogrUTVP2N3IzTDKzgP0Js1gg4fbwtYB6ftgLbKQu/V8yH2+lrKCfKHelh4SO3DPzKj4/glTO+tNJGDnb0A==" data-cf-beacon='{"rayId":"6b6ef40d7e3f6eb8","token":"f6015dc0cf6045ad943679d053a175bd","version":"2021.11.0","si":100}' crossorigin="anonymous"></script>
+
+<script src="app.js"></script>
+</body>
+</html>
