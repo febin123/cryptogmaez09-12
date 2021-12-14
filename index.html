@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRYPTOGAMEZ</title>
-    <link rel="shortcut icon" href="https://www.blitzpools.com/favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Image/32x32 Logo.webp" type="image/x-icon">
 
     <!---animation image-->
 
@@ -31,6 +31,11 @@
   <style media="screen">
      .carousel1{
       height: 100vh;
+  }
+     .carousel2 img{
+       
+      /* height: 55vh; */
+      width: 100vw;
   }
     .carousel-cell1 {
       width: 100%;
@@ -66,8 +71,10 @@
     /*carousel mobile*/
  
       .carousel-cell2 img{
-        margin-top: 3.5vw;
-        height: 55vh;
+        margin-top: 14vw;
+        height: 70vh;
+      width: 100vw;
+        display: block;
       }
       /* cell number */
       .carousel-cell2:before {
@@ -184,6 +191,7 @@
 }
 
  @media screen and (max-width: 620px) {
+  
    
   .addaAction .slider{
     height: 45vh;
@@ -293,7 +301,7 @@
         <img class="w3-image1" src="Image/Banner-Desktop.webp">
       </div>
       <div class="carousel-cell1">
-        <img class="w3-image1" src="Image/Banner-Desktop.webp">
+        <img class="w3-image1" src="Image/Banner-Desktop-1.jpg">
       </div>
      
     </div>
@@ -302,9 +310,21 @@
     
 </div>
 <div class="mobile-back">
-  <div class="mobile-img">
-    <img src="Image/Banner-Mobile.webp" alt="" srcset="">
+
+  <div class="carousel2" data-flickity='{ "wrapAround": true, "autoPlay": 7000, "imagesLoaded":true }'>
+
+    <div class="carousel-cell2">
+      <img src="Image/Banner-Mobile.webp" alt="" srcset="">
+    </div>
+    <div class="carousel-cell2">
+      <img src="Image/Banner-Mobile-1.jpg" alt="" srcset="">
+    </div>
+   
+   
   </div>
+  <!-- <div class="mobile-img">
+    
+  </div> -->
   <!-- <button class="down-now"><a href="https://blitzpools.com/signup"style="font-family: 'Roboto', sans-serif;">SIGN UP</a></button> -->
 </div>
 
