@@ -32,11 +32,7 @@
      .carousel1{
       height: 100vh;
   }
-     .carousel2 img{
-       
-      /* height: 55vh; */
-      width: 100vw;
-  }
+   
     .carousel-cell1 {
       width: 100%;
       }
@@ -74,7 +70,7 @@
         margin-top: 14vw;
         height: 70vh;
       width: 100vw;
-        display: block;
+        display: none;
       }
       /* cell number */
       .carousel-cell2:before {
@@ -192,6 +188,34 @@
 
  @media screen and (max-width: 620px) {
   
+  .carousel-cell2 img{
+        margin-top: 14vw;
+        height: 70vh;
+      width: 100vw;
+        display: block;
+      }
+      /* cell number */
+      .carousel-cell2:before {
+        display: block;
+      }
+      .flickity-page-dots2{
+        display: none;
+      }
+      .carousel2 .flickity-button.flickity-prev-next-button.previous{
+        background-color:transparent;
+      margin-top: 1vw;
+      }
+      .carousel2 .flickity-button.flickity-prev-next-button.next{
+      background-color:transparent;
+      margin-top: 1.2vw;
+      
+    }
+    .carousel2 .flickity-page-dots .dot{
+      background-color: #2396ff;
+      top: 5vw;
+      display: none;
+      /* position:relative; */
+    }
    
   .addaAction .slider{
     height: 45vh;
